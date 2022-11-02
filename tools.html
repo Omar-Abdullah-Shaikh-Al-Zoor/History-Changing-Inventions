@@ -7,32 +7,38 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
+        <div class="container">
             <header>
-                <a><img src="assets/media/SciBlog_logo.png" alt="logo"></a>
-                <nav>
-                    <a href="index.html">Main</a>
-                    <a href="tools.html">Transportation</a>
-                    <a href="transportation.html">Useful Tools</a>
-                    <a href="health.html">Health & Medicine</a>
-                    <a href="references.html">References</a>
-                </nav>
+                <div class="header-nav">
+                    <a href="index.html"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
+                    <nav class="main-nav">
+                        <a href="index.html">Main</a>
+                        <a href="transportation.html">Transportation</a>
+                        <a href="tools.html">Useful Tools</a>
+                        <a href="health.html">Health & Medicine</a>
+                        <a href="references.html">References</a>
+                    </nav>
+                </div>
             </header>
             <main>
-                <h4>Life Saver Devices</h4>
+                <h4 class="criteria">Life Saver Devices</h4>
                 <h1>Small in Size but Massive in Effect: Devices That have Revolutionized how the World Lives Today</h1>
-                <hr>
-                <div>
-                    <div>
-                        <h4>Abdel Rahman Al Qali</h4>
-                        <p>First-year Computing and Information Technology student at RIT University-Dubai</p>
-                        <img src="assets/media/Abdelrahman_photo.jpg" alt="AbdelRahman Photo">
+                <hr class="profile-hr"/>
+                <div class="writer">
+                    <div class="profile">
+                        <div>
+                            <h4 class="name">Abdel Rahman Al Qali</h4>
+                            <p class="para-name">First-year Computing and Information Technology student at RIT University-Dubai</p>
+                        </div>
+                        <img src="assets/media/Abdelrahman_photo.jpg" alt="AbdelRahman Photo" class="photos img" />
                     </div>
-                    <hr>
+                    <hr class="profile-hr2"/>
                     <p>Last updated on 28 October 2022</p>
                 </div>
-                <div id="compass">
-                    <h2>The Invention of the Compass: No More Blind Travel!</h2>
-                    <img src="assets/media/compass_desktop.jpg" alt="vintage compass">
+                <div id="compass" class="inventions">
+                    <hr />
+                    <h2 class="heading-pages">The Invention of the Compass: No More Blind Travel!</h2>
+                    <img src="assets/media/compass_desktop.jpg" alt="vintage compass" class="img">
                     <p>When it comes to air and marine transport, it is rational to say that no one likes to blindly 
                        head into a storm and drown in the ocean or have their wings clipped, therefore we use a 
                        compass to guide us in our travels. According to Wolchover and Leggett, the Han dynasty 
@@ -44,10 +50,10 @@
                        lands and nations.
                     </p>
                 </div>  
-                <hr>
-                <div id="light-bulb">
-                    <h2>The End of the Candle and Lantern Era: The Invention of the Incadescent Lightbulb</h2>
-                    <img src="assets/media/bulb_desktop.jpg" alt="Bulbs">
+                <div id="light-bulb" class="inventions">
+                    <hr />
+                    <h2 class="heading-pages">The End of the Candle and Lantern Era: The Invention of the Incadescent Lightbulb</h2>
+                    <img src="assets/media/bulb_desktop.jpg" alt="Bulbs" class="img">
                     <p>Humanity's dependence on natural light is an era bygone. This was marked by the 
 		               invention of the first lightbulb, which was collaborated on by many inventors. However, Palermo 
 		               and McKelvie mention that <em>the creation of a complete and functional lighting system that 
@@ -69,20 +75,22 @@
                 <hr>
                 <aside>
                     <h2>Invention of the Week</h2>
-                    <img src="/assets/media/invention_of_the_week_desktop.jpg" alt="Lightbulb image" />
+                    <img src="assets/media/invention_of_the_week_desktop.jpg" alt="Lightbulb image" />
                     <hr />
                     <div>
                         <h3>Recommended Inventions & Discoveries</h3>
-                        <a href="/tools.html/#light-bulb"></a>
-                        <a href="/transportation.html/#automobile"></a>
-                        <a href="/tools.html/#compass"></a>
+                        <div class="links-a">
+                            <p><a href="tools.html/#light-bulb">The End of the Candle and Lantern Era: The Invention of the Incadescent Lightbulb</a></p>
+                            <p><a href="/transportation.html/#automobile">From Wagon to automobile</a></p>
+                            <p><a href="/tools.html/#compass">The Invention of the Compass: No More Blind Travel!</a></p>
+                        </div>
                     </div>
                     <hr />
                     <div>
                         <h3>Latest Inventions & Discoveries</h3>
-                        <a href="tools.html/#compass"></a>
-                        <a href="transportation.html/#airplane"></a>
-                        <a href="health.html/#Hygiene"></a>
+                        <p><a href="tools.html/#compass">The Invention of the Compass: No More Blind Travel!</a></p>
+                        <p><a href="transportation.html/#airplane">Flying alongside with birds: <em>Airplane</em></a></p>
+                        <p><a href="health.html/#Hygiene">How Hygiene practices saved women lives in the 19th century?</a></p>
                     </div>
                 </aside>
             </main>
