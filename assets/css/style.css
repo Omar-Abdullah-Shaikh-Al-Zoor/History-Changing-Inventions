@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #547aa5;
 }
 header {
   grid-area: header;
@@ -25,7 +26,10 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: aquamarine;
+  background-color: #493843;
+}
+main {
+  background-color: #bcaa99;
 }
 .logo {
   width: 7vh;
