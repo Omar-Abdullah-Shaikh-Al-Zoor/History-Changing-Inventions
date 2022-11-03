@@ -17,7 +17,6 @@ footer {
   grid-template-areas: "header header"
                         "main main"
                         "footer footer";
-
 }
 
 header {
@@ -118,7 +117,7 @@ footer p {
 
 /* content pages */
 .writer {
-  margin: 7vh 5vw 7vw 5vw;
+  margin: 10vh 5vw 4vw 5vw;
   padding-left: 0.5vh;
 }
 hr {
@@ -235,7 +234,7 @@ aside img {
   }
   .logo {
     margin: 1.2vh 2vw;
-    width: 8vw;
+    width: 5vw;
   }
   main {
     display: flex;
@@ -247,7 +246,6 @@ aside img {
   .main aside {
     margin-right: 10vw;
     width: 30vw;
-    position: sticky;
     height: fit-content;
     margin: 3.5vh 2.5vw;
     border-radius: 2%;
