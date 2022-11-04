@@ -274,67 +274,88 @@ aside img {
 }
 @media screen and (min-width: 1024px) {
   /* General Elements */
-  .img {
+  .main {
+    display: flex;
+  }
+  .aside {
+    width: 75vw;
+  }
+  aside {
+    width: 23vw;
+    height: fit-content;
+    margin: 3.5vh 0vw;
+    border-radius: 0;
+  }
+  aside hr {
+    margin: 2vh 0;
+  }
+  aside h2{
+    margin-bottom: 1.5vh;
+  }
+  .links-a p {
+    margin: 2vh 1vw;
+  }
+  .home-img {
     margin: 0 10vw ;
   }
   h1[class="main-heading"] {
     margin: 6vh 0 2vh 0;
   }
+  .criteria {
+    margin-left: 1.9vw;
+  }
   .inv-titles {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
   }
-  .inv-titles-1 {
-    width: 50%;
-    margin-left: 3vw;
+  .main .inv-titles-1 {
+    width: 65%;
   }
   .inv-titles-2 {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
-  
+  .inv-nav {
+    margin-bottom: 4vh;
+  }
+  .inv-titles-1 .inv-nav {
+    margin: 0 5vw;
+  }
+  .inv-titles-2 .img {
+    margin-left: -2vw;
+  }
+  .health > .img-health{
+    margin-top: 15vh;
+    width: 65vw;
+  }
+  .inv-nav {
+    margin-right: 2vw;
+  }
   .main-nav a {
     color: #a1d6b1;
-    padding: 1.5vh 2vw;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     border-radius: 15px;
-    font-size: 1.6rem;
+    font-size: 1.85rem;
     position: relative;
-    top: 30%;
+    top: 24%;
   }
   .main-nav a:hover {
-    transform: scale(1.05);
     transition: 0.5s ease;
     background-color: #c06d00;
   }
   .header-nav {
     height: auto;
-    padding-right: 2vw;
+    padding-right: 1vw;
   }
   .logo {
-    margin: 1.2vh 2vw;
+    margin: 0.7vh 2vw;
     width: 5vw;
   }
-
   .inventions p {
     padding: 0 1vw 5vh 5vw;
   }
 
-  .main aside {
-    margin-right: 10vw;
-    width: 25vw;
-    height: fit-content;
-    margin: 3.5vh 2.5vw;
-    border-radius: 2%;
-  }
-  aside img {
-    margin: 0 1.8vw;
-  }
-  .links-a p {
-    margin: 2vh 1vw;
-  }
 }
