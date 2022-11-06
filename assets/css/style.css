@@ -69,7 +69,7 @@ header {
 .main-nav a {
   color: #a1d6b1;
   list-style-type: none;
-  padding: 0.4rem;
+  padding: 0.5vw;
   font-size: 1.2rem;
   border: 10px bold gray;
   border-radius: 50%;
@@ -101,7 +101,7 @@ footer {
 .img-icons {
   margin: 0;
   padding: 0.5vh 2vw;
-  width: 8vh;
+  width: 11vw;
 }
 footer p {
   color: #69b780;
@@ -121,14 +121,16 @@ footer p {
   text-align: center;
   margin-top: 4vh;
   margin-bottom: 3vh;
-  font-size: 2.2rem;
+  font-size: 1.71rem;
 }
 h1[class="main-heading"] {
   margin: 2vh;
 }
 .inv-nav {
+  font-size: 1.2rem;
   padding: 0;
-  margin-bottom: 7vh;
+  margin: 0 7vw;
+  margin-bottom: 5vh;
 }
 .inv-nav a {
   text-decoration:underline;
@@ -166,8 +168,9 @@ h1[class="main-heading"] {
 .inbetween-hr {  
   width: 86%;
   margin: 2vh 0 5vh 0;
-  height: 0.7vh;
-  color: rgb(91, 89, 89);
+  border: none;
+  height: 0.35vh;
+  background-color: rgb(89, 73, 73);
 }
 
 .writer {
@@ -193,13 +196,13 @@ h1[class="main-heading"] {
 }
 
 .text {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 5vh;
   font-family: "Times New Roman", Times, serif;
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 0 3vw;
 }
 .heading-pages {
@@ -207,26 +210,27 @@ h1[class="main-heading"] {
   margin: 0 7vw;
   margin-bottom: 2vh;
   color: brown;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
 }
 
 aside {
   width: 90%;
-  margin: 4vh;
+  margin-left: 5vw;
+  margin-top: 4vh;
   padding: 4vh;
   background-color: #a38e75;
   border-radius: 3%;
 }
 aside h2, h3 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.32rem;
 }
 aside hr {
   margin: 5vh 1vh;
 }
 .links-a p {
   margin: 1.6vh 2vw 0 3vw;
-  font-size: 1.2rem;
+  font-size: 1.07rem;
 }
 .links-a a {
   color: rgb(221, 221, 221);
@@ -279,13 +283,14 @@ aside img {
       display: flex;
     }
     .aside {
-      width: 75vw;
+      width: 70vw;
     }
     aside {
-      width: 23vw;
+      width: 25vw;
       height: fit-content;
       margin: 3.5vh 0vw;
       border-radius: 0;
+      padding: 1.5vw;
     }
     aside hr {
       margin: 2vh 0;
@@ -293,8 +298,12 @@ aside img {
     aside h2{
       margin-bottom: 1.5vh;
     }
+    .aside-h3{
+      font-size: 1.1rem;
+    }
     .links-a p {
       margin: 2vh 1vw;
+      font-size: 0.8rem;
     }
     .home-img {
       margin: 0 10vw ;
@@ -304,29 +313,27 @@ aside img {
     }
     .criteria {
       margin-left: 1.9vw;
+      padding-left: 1vw;
     }
     .inv-titles {
       display: flex;
       flex-direction: row;
     }
-    .main .inv-titles-1 {
-      width: 55%;
-    }
-    .inv-titles-2 {
-      width: 45%;
-      display: flex;
-      flex-direction: column;
-    }
-    .inv-nav {
-      margin-bottom: 4vh;
-    }
-    
-    .inv-titles-1 .inv-nav {
-      margin: 0 5vw;
-    }
     .inv-titles-3 {
       width: 50vw;
     }
+    .inv-titles-2 {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+    }
+    .inv-nav{
+      margin: 0;
+      margin-bottom: 3vh;
+    }
+    .inv-titles-1 .inv-nav {
+      margin: 0 5vw;
+    }    
     .inv-titles-3 .inv-nav {
       margin: 0 5vw;
     }
@@ -334,14 +341,11 @@ aside img {
       margin-left: -2vw;
     }
     .health > .img-health{
-      margin-top: 15vh;
+      margin-top: 5vh;
       width: 65vw;
     }
     .inv-titles-1 a, .inv-titles-2 a, .inv-titles-3 a {
       font-size: 1.2rem;
-    }
-    .inv-nav {
-      margin-right: 2vw;
     }
     .main-nav a {
       color: #a1d6b1;
@@ -349,7 +353,7 @@ aside img {
       text-decoration: none;
       cursor: pointer;
       border-radius: 15px;
-      font-size: 1.15rem;
+      font-size: 1.13rem;
       position: relative;
       top: 24%;
     }
@@ -362,12 +366,34 @@ aside img {
       padding-right: 1vw;
     }
     .logo {
-      margin: 0.7vh 2vw;
+      margin: 0.7vh 0 0.7vh 2vw;
       width: 5vw;
     }
     .inventions p {
-      padding: 0 1vw 5vh 5vw;
+      padding: 0 2.5vw 0 5vw;
     }
+    .img-icons {
+      width: 9.5vw;
+    }
+    .nav-h3 {
+      margin: 0;
+    }
+    .heading-pages {
+      margin: 3vh 2vw;
+    }
+    .inv-nav a {
+      font-size: 1rem;
+    }
+    .nav-h3 a {
+      font-size: 1.3rem;
+    }
+    .container-main {
+      margin: 4vh 1vw;
+    }
+    .text {
+      font-size: 1.2rem;
+    }
+
 }
 @media screen and (min-width: 1024px) {
   /* General Elements */
@@ -396,7 +422,7 @@ aside img {
     margin: 0 10vw ;
   }
   h1[class="main-heading"] {
-    margin: 6vh 0 2vh 0;
+    margin: 6vh 0 4vh 0;
   }
   .criteria {
     margin-left: 1.9vw;
@@ -405,11 +431,11 @@ aside img {
     display: flex;
     flex-direction: row;
   }
-  .main .inv-titles-1 {
-    width: 60vw;
+  .inv-titles-1 {
+    width: 69%;
   }
   .inv-titles-2 {
-    width: 30vw;
+    width: 30%;
     display: flex;
     flex-direction: column;
   }
@@ -420,7 +446,7 @@ aside img {
     margin: 0 5vw;
   }
   .inv-titles-3 {
-    width: 50vw;
+    width: 47vw;
   }
   .inv-titles-3 .inv-nav {
     margin: 0 5vw;
@@ -428,12 +454,15 @@ aside img {
   .inv-titles-2 .img {
     margin-left: -2vw;
   }
-  .health > .img-health{
-    margin-top: 15vh;
-    width: 65vw;
+  .img-main{
+    margin-top: 4vh;
+  }
+  .inventions p {
+    font-size: 1.3rem;
   }
   .inv-nav {
-    margin-right: 2vw;
+    margin: 0;
+    margin-bottom: 4vh;
   }
   .main-nav a {
     color: #a1d6b1;
@@ -441,7 +470,7 @@ aside img {
     text-decoration: none;
     cursor: pointer;
     border-radius: 15px;
-    font-size: 1.85rem;
+    font-size: 1.6rem;
     position: relative;
     top: 24%;
   }
@@ -455,7 +484,19 @@ aside img {
   }
   .logo {
     margin: 0.7vh 2vw;
-    width: 5vw;
+    width: 4vw;
+  }
+  .img-icons {
+    width: 7.5vw;
+  }
+  .main-heading {
+    font-size: 2rem;
+  }
+  .heading-pages {
+    font-size: 1.7rem;
+  }
+  .title {
+    font-size: 1.9rem;
   }
 
 }
