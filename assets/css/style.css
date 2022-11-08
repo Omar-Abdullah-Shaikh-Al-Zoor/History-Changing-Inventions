@@ -268,14 +268,16 @@ aside img {
   margin: 4%;
   margin-top: 0;
   border-radius: 5%;
-  font-size: 1.5rem;
 }
 .references div {
   padding: 5vh 2vw 0 7vw;
 }
 .hanging-text {
-  padding-left: 64px;
+  padding-left: 34px;
   text-indent: -30px;
+}
+.references p {
+  padding-left: 5vw;
 }
 .ref-h2 {
   text-align: center;
@@ -465,7 +467,6 @@ aside img {
     .health-prac {
       content: url(/assets/media/health_practices_desktop.jpg);
     }
-
   /* General Elements */
   .main {
     display: flex;
@@ -536,7 +537,7 @@ aside img {
     margin-left: -2vw;
   }
   .img-main {
-    margin-top: 2vh;
+    margin-top: 5vh;
   }
   .inventions p {
     font-size: 1.3rem;
