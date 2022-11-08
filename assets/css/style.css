@@ -441,6 +441,7 @@ aside img {
     .health-prac {
       content: url(/assets/media/health_practices_desktop.jpg);
     }
+
   /* General Elements */
   .main {
     display: flex;
@@ -460,6 +461,10 @@ aside img {
   aside h2 {
     margin-bottom: 1.5vh;
   }
+  .inv-nav a {
+    margin-left: -1vw;
+    font-size: 1.1rem;
+  }
   .links-a p {
     margin: 2vh 1vw;
   }
@@ -476,8 +481,16 @@ aside img {
     display: flex;
     flex-direction: row;
   }
+  .nav-h3 a{
+    font-size: 1.7rem;
+  }
   .inv-titles-1 {
     width: 69%;
+  }
+  iframe {
+    width: 50%;
+    height: 52vh;
+    margin: 0 23vw
   }
   .inv-titles-2 {
     width: 30%;
@@ -493,6 +506,7 @@ aside img {
   .inv-titles-3 {
     width: 47vw;
   }
+  
   .inv-titles-3 .inv-nav {
     margin: 0 5vw;
   }
@@ -500,7 +514,7 @@ aside img {
     margin-left: -2vw;
   }
   .img-main {
-    margin-top: 4vh;
+    margin-top: 2vh;
   }
   .inventions p {
     font-size: 1.3rem;
@@ -535,7 +549,7 @@ aside img {
     width: 7.5vw;
   }
   .main-heading {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .heading-pages {
     font-size: 1.7rem;
