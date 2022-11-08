@@ -269,17 +269,16 @@ aside img {
 /* References page */
 .references {
   background-color: antiquewhite;
-  margin: 4%;
+  margin: 4vw;
   margin-top: 0;
-  border-radius: 5%;
+  border-radius: 5vw;
 }
 
 .references div {
   padding: 5vh 2vw 0 7vw;
 }
 .hanging-text {
-  padding-left: 34px;
-  text-indent: -30px;
+  text-indent: -0.5rem;
 }
 .references p {
   padding-left: 5vw;
