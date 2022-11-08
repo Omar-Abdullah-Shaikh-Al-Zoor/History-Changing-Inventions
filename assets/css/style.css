@@ -83,8 +83,19 @@ header {
   padding: 0 1vw;
 }
 .main-nav a:hover {
-  background-color: #FAF3DD;
+  transition: 0.5s ease;
   transform: scale(1.05);
+  background-color: #5e6973;
+}
+.inv-nav a {
+  border-radius: 10%;
+  transition: 1s ease;
+}
+.inv-nav a:hover{
+  transition: 0.5s ease;
+  transform: scale(1.05);
+  
+  background-color: #9aa7b4;
 }
 
 /* Main Body */
@@ -397,10 +408,6 @@ aside img {
   .img-main {
     margin-top: 4vh;
   }
-  .main-nav a:hover {
-    transition: 0.5s ease;
-    background-color: #5e6973;
-  }
   .header-nav {
     height: auto;
     padding-right: 1vw;
@@ -422,7 +429,7 @@ aside img {
     margin: 3vh 2vw;
   }
   iframe {
-    margin: 0 15vw;
+    margin-left: 17vw;
   }
   .inv-nav a {
     margin-left: -2vw;
@@ -561,10 +568,7 @@ aside img {
     position: relative;
     top: 24%;
   }
-  .main-nav a:hover {
-    transition: 0.5s ease;
-    background-color: #8AC4FF;
-  }
+
   .header-nav {
     height: auto;
     padding-right: 1vw;
