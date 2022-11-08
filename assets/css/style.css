@@ -93,12 +93,12 @@ footer {
 .img-icons {
   margin: 0;
   padding: 0.5vh 2vw;
-  width: 11vw;
+  width: 15vw;
 }
 footer p {
   color: #69b780;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding-top: 1vh;
 }
 
@@ -133,7 +133,7 @@ h1[class="main-heading"] {
 .founder {
   margin-bottom: 5vh;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .profile {
   margin: 4vh 0;
@@ -144,6 +144,9 @@ h1[class="main-heading"] {
 }
 .profile h4, .profile p {
   padding-left: 2vw;
+}
+.profile p {
+  font-size: 1.5rem;
 }
 .photos {
   width: 10vh;
