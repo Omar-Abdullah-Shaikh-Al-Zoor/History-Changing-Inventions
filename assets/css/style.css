@@ -70,7 +70,7 @@ header {
   list-style-type: none;
   padding: 0.4vw;
   font-size: 1.3rem;
-  border: 10px gray bold;
+  border: 10px bold gray;
   border-radius: 15px;
   transition: 1s ease;
 }
