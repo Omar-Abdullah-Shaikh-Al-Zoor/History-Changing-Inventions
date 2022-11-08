@@ -64,7 +64,6 @@ header {
 }
 .main-nav {
   margin: 3vh 3vw;
-
 }
 .main-nav a {
   color: #a1d6b1;
@@ -219,7 +218,7 @@ h1[class="main-heading"] {
   font-size: 1.3rem;
 }
 iframe {
-  margin: 1vh 13vw;
+  margin: 1vh 12vw;
 }
 aside {
   width: 90%;
@@ -292,6 +291,9 @@ video {
   width: 90%;
   border-radius: 5%;
 }
+.video {
+  margin-left: 5vw;
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -345,6 +347,9 @@ video {
   }
   .hanging-text {
     font-size: 1.3rem;
+  }
+  .main-nav {
+    margin: 0;
   }
   .links-a p {
     margin: 2vh 1vw;
@@ -512,6 +517,9 @@ video {
   }
   .criteria {
     margin-left: 1.9vw;
+  }
+  .main-nav {
+    margin: 0;
   }
   .inv-titles {
     display: flex;
