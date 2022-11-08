@@ -55,7 +55,7 @@ header {
   width: 5vw;
 }
 .logo {
-  width: 7vh;
+  width: 8vh;
 }
 .header-nav {
   display: flex;
@@ -66,10 +66,21 @@ header {
   color: #a1d6b1;
   list-style-type: none;
   padding: 0.5vw;
-  font-size: 1.2rem;
-  border: 10px bold gray;
+  font-size: 1.3rem;
+  border: 10px gray bold;
   border-radius: 50%;
   transition: 1s ease;
+}
+.container-mob {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 3vw;
+}
+.container-mob a{
+  font-size: 1.25rem;
+  padding: 0 1vw;
 }
 .main-nav a:hover {
   transform: scale(1.05);
@@ -93,12 +104,12 @@ footer {
 .img-icons {
   margin: 0;
   padding: 0.5vh 2vw;
-  width: 15vw;
+  width: 12vw;
 }
 footer p {
   color: #69b780;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding-top: 1vh;
 }
 
@@ -150,6 +161,9 @@ h1[class="main-heading"] {
 .photos {
   width: 10vh;
   border-radius: 50%;
+}
+.profile-pages p, .profile-pages h4{
+  font-size: 1.2rem;
 }
 
 /* content pages */
@@ -218,7 +232,7 @@ aside h2 {
   margin-bottom: 2vh;
 }
 aside hr {
-  margin: 5vh 1vh;
+  margin: 2vh 1vh;
 }
 .links-a p {
   margin: 1.6vh 2vw 0 3vw;
@@ -235,7 +249,8 @@ aside img {
 }
 /* pages */
 .criteria {
-  padding: 2vh 0 0 2vh;
+    margin-left: 1.9vw;
+    padding-left: 1vw;
 }
 .name {
   padding: 2vh 0;
@@ -336,10 +351,7 @@ aside img {
   footer p {
     font-size: 1.2rem;
   }
-  .criteria {
-    margin-left: 1.9vw;
-    padding-left: 1vw;
-  }
+
   .inv-titles {
     display: flex;
     flex-direction: row;
