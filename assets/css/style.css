@@ -21,11 +21,11 @@ footer {
     "main main"
     "footer footer";
 }
-h1,h2 {
-  color: brown;
-}
 
 /* Genral Elements */
+h1, h2 {
+  color: brown;
+}
 h1,h2,h3,h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -69,6 +69,7 @@ header {
   font-size: 1.2rem;
   border: 10px bold gray;
   border-radius: 50%;
+  transition: 1s ease;
 }
 .main-nav a:hover {
   transform: scale(1.05);
@@ -196,7 +197,9 @@ h1[class="main-heading"] {
   color: brown;
   font-size: 1.3rem;
 }
-
+iframe {
+  margin: 1vh 13vw;
+}
 aside {
   width: 90%;
   margin-left: 5vw;
@@ -316,11 +319,11 @@ aside img {
     margin: 0 10vw;
   }
   .main-heading {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h1[class="main-heading"] {
     margin: 4vh 0 2vh 0;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
   .criteria {
     margin-left: 1.9vw;
@@ -354,7 +357,6 @@ aside img {
   .inv-titles-2 .img {
     margin-left: -3vw;
   }
-
   .inv-titles-1 a, .inv-titles-2 a, .inv-titles-3 a {
     font-size: 1.2rem;
   }
