@@ -110,13 +110,14 @@ footer p {
   text-align: center;
   margin-top: 4vh;
   margin-bottom: 3vh;
-  font-size: 1.71rem;
+  font-size: 2.4rem;
 }
 h1[class="main-heading"] {
+  font-size: 2.5rem;
   margin: 2vh;
 }
 .inv-nav {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   padding: 0;
   margin: 0 7vw;
   margin-bottom: 5vh;
@@ -143,10 +144,8 @@ h1[class="main-heading"] {
   padding: 1vh 0;
 }
 .profile h4, .profile p {
-  padding-left: 2vw;
-}
-.profile p {
   font-size: 1.5rem;
+  padding-left: 2vw;
 }
 .photos {
   width: 10vh;
