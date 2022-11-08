@@ -212,6 +212,9 @@ aside h2, h3 {
   text-align: center;
   font-size: 1.32rem;
 }
+aside h2 {
+  margin-bottom: 2vh;
+}
 aside hr {
   margin: 5vh 1vh;
 }
@@ -465,9 +468,7 @@ aside img {
   aside hr {
     margin: 2vh 0;
   }
-  aside h2 {
-    margin-bottom: 1.5vh;
-  }
+
   .inv-nav a {
     margin-left: -1vw;
     font-size: 1.1rem;
