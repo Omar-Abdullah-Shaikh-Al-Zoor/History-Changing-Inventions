@@ -311,6 +311,9 @@ aside img {
   .aside-h3 {
     font-size: 1.1rem;
   }
+  .hanging-text {
+    font-size: 1.3rem;
+  }
   .links-a p {
     margin: 2vh 1vw;
     font-size: 0.8rem;
@@ -324,6 +327,9 @@ aside img {
   h1[class="main-heading"] {
     margin: 4vh 0 2vh 0;
     font-size: 2rem;
+  }
+  footer p {
+    font-size: 1.2rem;
   }
   .criteria {
     margin-left: 1.9vw;
@@ -348,9 +354,6 @@ aside img {
   .inv-titles-1 .inv-nav {
     margin: 0 5vw;
   }
-  h3 {
-    margin-left: -77vw;
-  }
   .inv-titles-3 .inv-nav {
     margin: 0 5vw;
   }
@@ -366,9 +369,12 @@ aside img {
     text-decoration: none;
     cursor: pointer;
     border-radius: 15px;
-    font-size: 1.13rem;
+    font-size: 1.5rem;
     position: relative;
     top: 24%;
+  }
+  .img-main {
+    margin-top: 4vh;
   }
   .main-nav a:hover {
     transition: 0.5s ease;
@@ -386,7 +392,7 @@ aside img {
     padding: 0 2.5vw 0 5vw;
   }
   .img-icons {
-    width: 9.5vw;
+    width: 9vw;
   }
   .nav-h3 {
     margin: 0;
@@ -394,10 +400,11 @@ aside img {
   .heading-pages {
     margin: 3vh 2vw;
   }
+  iframe {
+    margin: 0 20%;
+  }
   .inv-nav a {
     margin-left: -2vw;
-    margin-right: ;
-
     font-size: 1.1rem;
   }
   .nav-h3 a {
