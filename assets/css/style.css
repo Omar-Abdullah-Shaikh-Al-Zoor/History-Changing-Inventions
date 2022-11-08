@@ -273,12 +273,12 @@ aside img {
   margin-top: 0;
   border-radius: 5vw;
 }
-
 .references div {
   padding: 5vh 2vw 0 7vw;
 }
 .hanging-text {
   text-indent: -0.5rem;
+  margin-right: 3%;
 }
 .references p {
   padding-left: 5vw;
