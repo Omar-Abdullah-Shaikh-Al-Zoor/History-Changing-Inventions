@@ -8,18 +8,45 @@
     </head>
     <body>
         <div class="container">
+            
             <header class="header">
                 <div class="header-nav">
-                    <a href="index.html"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
-                        <nav class="main-nav">
+                        <a href="index.html"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
+                        <div id="lines" onclick="toggleMenu()">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                </div>
+                        <nav class="main-nav" id="nav-bar" style="display: block !important;">
                             <a href="index.html">Homepage</a>
                             <a href="transportation.html">Transportation</a>
                             <a href="tools.html">Tools</a>
                             <a href="health.html">Health & Medicine</a>
                             <a href="references.html">References</a>
                         </nav>
-                </div>
+                
             </header>
+
+            <script>
+                
+                    window.onresize = function() {
+                        var x = document.getElementById("nav-bar")
+                        if(window.innerWidth >= 768) x.style.display = "block";
+                    };
+                    function toggleMenu() {
+                        var x = document.getElementById("nav-bar")
+                        if(x.style.display == 'block') {
+                            x.style.display = 'none';
+                        }
+                        else{
+                                x.style.display = 'block';
+                        }
+                    }
+                
+
+            </script>
+
             <main>
                 <div class="container-main">
                     <h1 class="main-heading">History-Changing Inventions & Discoveries</h1>
@@ -56,7 +83,7 @@
                     <div>
                             <h2 class="main-heading">Useful Tools</h2>
                             <div class="inv-titles">
-                                <div class="inv-titles-3">
+                                <div class="inv-titles-3 mid-main">
                                     <div class="img">
                                         <img src="/assets/media/compass_tablet.jpg" alt="Compass image" class="compass"/>
                                     </div>
@@ -156,8 +183,10 @@
                     <a href="https://www.tiktok.com/">
                         <img alt="Tiktok icon" class="img-icons" src="assets/media/tiktok_logo.png" />
                     </a>
+                    
                 </nav>
-                <p>&copy; Copyright 2022 SciBlog. All rights reserved.</p>
+                <?php include footer.php; ?>
+
             </footer>
         </div>
     </body>
