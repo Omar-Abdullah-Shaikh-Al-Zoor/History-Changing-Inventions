@@ -315,32 +315,29 @@ video {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* Images */
   .carriage {
-    content: url(/assets/media/carriage_tablet.jpg);
+    content: url(../media/carriage_tablet.jpg);
   }
   .automobile {
-    content: url(/assets/media/automobile_tablet.jpg);
+    content: url(../media/automobile_tablet.jpg);
   }
   .airplane {
-    content: url(/assets/media/airplane_tablet.jpg);
+    content: url(../media/airplane_tablet.jpg);
   }
   .compass {
-    content: url(/assets/media/compass_tablet.jpg);
-  }
-  .bulb {
-    content: url(/assets/media/bulb_tablet.jpg);
+    content: url(../media/compass_tablet.jpg);
   }
   .health {
-    content: url(/assets/media/health_tablet.jpg);
+    content: url(../media/health_tablet.jpg);
   }
   .germs {
-    content: url(/assets/media/germs_tablet.jpg);
+    content: url(../media/germs_tablet.jpg);
   }
   /* General Elements */
   .main {
     display: flex;
   }
   .img-1 {
-    content: url(/assets/media/airplane_tablet.jpg);
+    content: url(../media/airplane_tablet.jpg);
   }
   .aside {
     width: 70vw;
@@ -485,30 +482,26 @@ video {
 @media screen and (min-width: 1024px) {
   /* Images */
   .carriage {
-    content: url(/assets/media/carriage_desktop.jpg);
+    content: url(../media/carriage_desktop.jpg);
   }
   .automobile {
-    content: url(/assets/media/automobile_desktop.jpg);
+    content: url(../media/automobile_desktop.jpg);
   }
   .airplane {
-    content: url(/assets/media/airplane_desktop.jpg);
+    content: url(../media/airplane_desktop.jpg);
   }
   .compass {
-    content: url(/assets/media/compass_desktop.jpg);
-  }
-  .bulb {
-    content: url(/assets/media/bulb_desktop.jpg);
+    content: url(../media/compass_desktop.jpg);
   }
   .health {
-    content: url(/assets/media/health_desktop.jpg);
+    content: url(../media/health_desktop.jpg);
   }
   .germs {
-    content: url(/assets/media/germs_desktop.jpg);
+    content: url(../media/germs_tablet.jpg);
   }
   .health-prac {
-    content: url(/assets/media/health_practices_desktop.jpg);
+    content: url(../media/health_practices_desktop.jpg);
   }
-
   /* General Elements */
   .main {
     display: flex;
@@ -613,7 +606,6 @@ video {
     margin: 0;
     margin-bottom: 4vh;
   }
-
 
   .header-nav {
     height: auto;

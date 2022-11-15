@@ -24,29 +24,32 @@
                     <div class="inv-titles">
                         <div class="inv-titles-1">
                             <div class="img img-main">
-                                <img src="assets/media/carriage_mobile.jpg" alt="Wheels picture" class="carriage" />
+                                <img alt="Carriage picture" src="./assets/media/carriage_mobile.jpg" class="carriage" />
                             </div>
                             <h3 class="inv-nav nav-h3">
-                                <a href="transportation.html#wheel">Transportation in early ages: The inventions of
+                                <a href="./transportation.php#wheel">Transportation in early ages: The inventions of
                                     Wheels</a>
                             </h3>
                         </div>
                         <div class="inv-titles-2">
                             <div>
                                 <div class="img">
-                                    <img src="assets/media/automobile_mobile.jpg" alt="Automobile picture"
+                                    <img src="./assets/media/automobile_mobile.jpg" alt="Automobile picture"
                                         class="automobile" />
                                 </div>
-                                <h3 class="inv-nav"><a href="/transportation.html#automobile">From Wagon to
-                                        automobile</a></h3>
+                                <h3 class="inv-nav">
+                                    <a href="./transportation.php#automobile">From Wagon to automobile</a>
+                                </h3>
                             </div>
                             <div>
                                 <div class="img">
-                                    <img src="assets/media/airplane_mobile.jpg" alt="Airplane picture"
+                                    <img src="./assets/media/airplane_mobile.jpg" alt="Airplane picture"
                                         class="airplane" />
                                 </div>
-                                <h3 class="inv-nav"><a href="/transportation.html#airplane">The Invention of the
-                                        Airplane: Flying alongside with birds!</a></h3>
+                                <h3 class="inv-nav">
+                                    <a href="./transportation.php#airplane">The Invention of the Airplane: Flying
+                                        alongside with birds!</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -60,7 +63,7 @@
                                 <img src="assets/media/compass_tablet.jpg" alt="Compass image" class="compass" />
                             </div>
                             <h3 class="inv-nav">
-                                <a href="tools.html#compass">The Invention of the Compass: No More Blind Travel!</a>
+                                <a href="tools.php#compass">The Invention of the Compass: No More Blind Travel!</a>
                             </h3>
                         </div>
                         <div class="inv-titles-3">
@@ -73,7 +76,7 @@
                                     </video>
                                 </div>
                                 <h3 class="inv-nav">
-                                    <a href="tools.html#light-bulb">The End of the Candle and Lantern Era: The Invention
+                                    <a href="tools.php#light-bulb">The End of the Candle and Lantern Era: The Invention
                                         of the Incadescent Lightbulb</a>
                                 </h3>
                             </div>
@@ -89,7 +92,7 @@
                                 <img src="assets/media/health_mobile.jpg" alt="Health word" class="health" />
                             </div>
                             <h3 class="inv-nav nav-h3">
-                                <a href="health.html#health-definition">Everyone Knows Health, But How can it be
+                                <a href="health.php#health-definition">Everyone Knows Health, But How can it be
                                     Defined?</a>
                             </h3>
                         </div>
@@ -98,14 +101,14 @@
                                 <div class="img">
                                     <img src="assets/media/germs_mobile.jpg" alt="Germs photo" class="germs" />
                                 </div>
-                                <h3 class="inv-nav"><a href="health.html#germs-theory">Why we get sick?</a></h3>
+                                <h3 class="inv-nav"><a href="health.php#germs-theory">Why we get sick?</a></h3>
                             </div>
                             <div>
                                 <div class="img">
                                     <img src="assets/media/health_practices_mobile.jpg" alt="Hygiene practices photo"
                                         class="health-prac" />
                                 </div>
-                                <h3 class="inv-nav"><a href="health.html#Hygiene">How Hygiene practices saved women
+                                <h3 class="inv-nav"><a href="health.php#Hygiene">How Hygiene practices saved women
                                         lives in the 19th century</a></h3>
                             </div>
                         </div>
@@ -147,24 +150,7 @@
 
             </div>
         </main>
-        <footer>
-            <nav class="footer-nav">
-                <a href="https://www.facebook.com">
-                    <img alt="Facebook icon" class="img-icons" src="assets/media/facebook_icon.png" />
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img alt="Instagram icon" class="img-icons" src="assets/media/instagram_icon.png" />
-                </a>
-                <a href="https://www.twitter.com/">
-                    <img alt="Twitter icon" class="img-icons" src="assets/media/twitter_icon.png" />
-                </a>
-                <a href="https://www.tiktok.com/">
-                    <img alt="Tiktok icon" class="img-icons" src="assets/media/tiktok_logo.png" />
-                </a>
-
-            </nav>
-            <?php include('footer.php'); ?>
-        </footer>
+        <?php include('footer.php'); ?>
     </div>
 </body>
 
