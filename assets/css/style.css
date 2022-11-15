@@ -75,16 +75,17 @@ header {
   flex-wrap: nowrap;
 }
 .main-nav {
-  width: 98vh;
-  display: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   text-align: center;
   margin: 1vh 0;
+  justify-content: space-around;
 }
 .main-nav a {
   color: #a1d6b1;
   list-style-type: none;
-  padding: 1vw;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   border: 10px bold gray;
   border-radius: 15px;
   transition: 1s ease;
@@ -284,16 +285,15 @@ aside img {
   margin: 4vh 0;
 }
 /* References page */
-.refrences-main {
-  width: 100vw;
-  height: 100%;
-}
+
 .references {
   background-color: antiquewhite;
   margin: 4vw;
   margin-top: 0;
   border-radius: 5vw;
+  padding-bottom: 3vh;
 }
+
 .references div {
   padding: 5vh 2vw 0 7vw;
 }
@@ -427,10 +427,10 @@ video {
     text-decoration: none;
     cursor: pointer;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     position: relative;
     bottom: 6vh;
-    padding: 0 0.5vw;
+    padding: 0 1vw;
   }
   .img-main {
     margin-top: 4vh;
@@ -482,6 +482,9 @@ video {
     position: relative;
     text-align: right;
   }
+  .references {
+    margin: 4vh 7vw;
+  }
 }
 @media screen and (min-width: 1024px) {
   /* Images */
@@ -511,10 +514,11 @@ video {
     display: flex;
   }
   .aside {
-    width: 73vw;
+    width: 65vw;
+    margin-left: 5vw;
   }
   aside {
-    width: 23vw;
+    width: 22vw;
     height: fit-content;
     margin: 3.5vh 0vw;
     border-radius: 0;
@@ -633,5 +637,8 @@ video {
   }
   .mid-main {
     margin-left: 3.5vw;
+  }
+  .references {
+    margin: 4vh 8vw;
   }
 }

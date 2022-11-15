@@ -37,7 +37,8 @@
                             <div class="img">
                                 <img alt="Carriage picture" src="assets/media/carriage_mobile.jpg" class="carriage" />
                             </div>
-                            <p class="text">Prior to the advent of the wheel, people used to transport and ship their
+                            <p class="text">&emsp; &emsp;Prior to the advent of the wheel, people used to transport and
+                                ship their
                                 goods from one location to another by
                                 carrying them or utilizing animals such as horses and donkeys. People employed simple
                                 innovations such as rollers and sleds

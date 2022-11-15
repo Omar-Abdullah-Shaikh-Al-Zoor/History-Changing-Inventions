@@ -11,7 +11,7 @@
         <a href="index.php">Homepage</a>
         <a href="transportation.php">Transportation</a>
         <a href="tools.php">Tools</a>
-        <a href="health.php">Health & Medicine</a>
+        <a href="health.php">Health</a>
         <a href="references.php">References</a>
     </nav>
 
@@ -24,10 +24,10 @@ window.onresize = function() {
 
 function toggleMenu() {
     var x = document.getElementById("nav-bar")
-    if (x.style.display == 'block') {
+    if (x.style.display == 'flex') {
         x.style.display = 'none';
     } else {
-        x.style.display = 'block';
+        x.style.display = 'flex';
     }
 }
 </script>

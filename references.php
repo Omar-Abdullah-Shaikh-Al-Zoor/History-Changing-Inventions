@@ -52,13 +52,12 @@
                         Engineers. https://ebookcentral.proquest.com/lib/rit/reader.action?docID=894391
                     </p>
                 </div>
-                <div class="hanging-text">
+                <div class="hanging-text last-ref">
                     <p>
                         Wolchover, N., & Leggett, J. (2021, December 22). Top 10 inventions that changed the world.
                         livescience.com. https://www.livescience.com/33749-top-10-inventions-changedworld.html
                     </p>
                 </div>
-                <br>
             </div>
         </main>
         <?php include('footer.php'); ?>
