@@ -484,6 +484,9 @@ video {
   .references {
     margin: 4vh 7vw;
   }
+  footer p {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   /* Images */
@@ -639,5 +642,7 @@ video {
   .references {
     margin: 4vh 8vw;
   }
-
+  footer p {
+    font-size: 2rem;
+  }
 }
