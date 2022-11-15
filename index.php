@@ -86,9 +86,9 @@
                 <hr />
                 <div>
                     <h2 class="main-heading">Health & Medicine</h2>
-                    <div class="inv-titles">
-                        <div class="inv-titles-1">
-                            <div class="img img-main">
+                    <div class="inv-titles main-main">
+                        <div class="inv-titles-1 ">
+                            <div class="img">
                                 <img src="assets/media/health_mobile.jpg" alt="Health word" class="health" />
                             </div>
                             <h3 class="inv-nav nav-h3">

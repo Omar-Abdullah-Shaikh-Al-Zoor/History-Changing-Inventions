@@ -77,12 +77,11 @@ header {
 .main-nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: nowrap;
-  text-align: center;
-  margin: 1vh 0;
-  justify-content: space-around;
 }
 .main-nav a {
+  padding: 0 2vw;
   color: #a1d6b1;
   list-style-type: none;
   font-size: 1.4rem;
@@ -531,7 +530,7 @@ video {
     display: block;
     text-align: right;
     position: relative;
-    bottom: 12vh;
+    bottom: 11vh;
   }
   header {
     height: 17vh;
@@ -574,15 +573,17 @@ video {
     font-size: 1.7rem;
   }
   .inv-titles-1 {
-    width: 69%;
+    width: 63%;
+    margin-left: 4vw;
   }
+
   iframe {
     width: 50%;
     height: 52vh;
     margin: 0 23vw;
   }
   .inv-titles-2 {
-    width: 30%;
+    width: 28%;
     display: flex;
     flex-direction: column;
   }
@@ -638,4 +639,5 @@ video {
   .references {
     margin: 4vh 8vw;
   }
+
 }

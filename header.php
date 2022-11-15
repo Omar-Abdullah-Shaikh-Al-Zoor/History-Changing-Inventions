@@ -19,8 +19,13 @@
 <script>
 window.onresize = function() {
     var x = document.getElementById("nav-bar")
-    if (window.innerWidth >= 768) x.style.display = "block";
+    if (window.innerWidth >= 768) {
+        x.style.display = "block";
+    } else {
+        x.style.display = "flex";
+    }
 };
+
 
 function toggleMenu() {
     var x = document.getElementById("nav-bar")
