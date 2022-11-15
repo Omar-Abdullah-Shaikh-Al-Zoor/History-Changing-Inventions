@@ -533,14 +533,13 @@ video {
     position: relative;
     bottom: 12vh;
   }
-
   header {
     height: 17vh;
   }
   .main-nav a {
     padding: 0 1vw;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
   .logo {
     width: 15vh;
@@ -567,7 +566,6 @@ video {
   .criteria {
     margin-left: 1.9vw;
   }
-
   .inv-titles {
     display: flex;
     flex-direction: row;
@@ -614,7 +612,6 @@ video {
     margin: 0;
     margin-bottom: 4vh;
   }
-
   .header-nav {
     height: auto;
     padding-right: 1vw;
