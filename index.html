@@ -8,10 +8,9 @@
     </head>
     <body>
         <div class="container">
-            
             <header class="header">
                 <div class="header-nav">
-                        <a href="index.html"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
+                        <a href="index.php"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
                         <div id="lines" onclick="toggleMenu()">
                             <div class="line"></div>
                             <div class="line"></div>
@@ -19,17 +18,14 @@
                         </div>
                 </div>
                         <nav class="main-nav" id="nav-bar" style="display: block !important;">
-                            <a href="index.html">Homepage</a>
+                            <a href="index.php">Homepage</a>
                             <a href="transportation.html">Transportation</a>
                             <a href="tools.html">Tools</a>
                             <a href="health.html">Health & Medicine</a>
                             <a href="references.html">References</a>
                         </nav>
-                
             </header>
-
             <script>
-                
                     window.onresize = function() {
                         var x = document.getElementById("nav-bar")
                         if(window.innerWidth >= 768) x.style.display = "block";
@@ -43,10 +39,7 @@
                                 x.style.display = 'block';
                         }
                     }
-                
-
             </script>
-
             <main>
                 <div class="container-main">
                     <h1 class="main-heading">History-Changing Inventions & Discoveries</h1>
@@ -57,22 +50,22 @@
                             <div class="inv-titles">
                                 <div class="inv-titles-1" >
                                     <div class="img img-main">
-                                    <img src="/assets/media/carriage_mobile.jpg" alt="Wheels picture" class="carriage"/>
+                                    <img src="assets/media/carriage_mobile.jpg" alt="Wheels picture" class="carriage"/>
                                     </div>
                                     <h3 class="inv-nav nav-h3">
-                                        <a href="/transportation.html#wheel" >Transportation in early ages: The inventions of Wheels</a>
+                                        <a href="transportation.html#wheel" >Transportation in early ages: The inventions of Wheels</a>
                                     </h3>
                                 </div>
                                 <div class="inv-titles-2">
                                     <div>
                                         <div class="img">
-                                            <img src="/assets/media/automobile_mobile.jpg" alt="Automobile picture" class="automobile"/>
+                                            <img src="assets/media/automobile_mobile.jpg" alt="Automobile picture" class="automobile"/>
                                         </div>
                                         <h3 class="inv-nav"><a href="/transportation.html#automobile">From Wagon to automobile</a></h3>
                                     </div>
                                     <div>
                                         <div class="img">
-                                            <img src="/assets/media/airplane_mobile.jpg" alt="Airplane picture" class="airplane"/>
+                                            <img src="assets/media/airplane_mobile.jpg" alt="Airplane picture" class="airplane"/>
                                         </div>
                                         <h3 class="inv-nav"><a href="/transportation.html#airplane">The Invention of the Airplane: Flying alongside with birds!</a></h3>
                                     </div>
@@ -85,7 +78,7 @@
                             <div class="inv-titles">
                                 <div class="inv-titles-3 mid-main">
                                     <div class="img">
-                                        <img src="/assets/media/compass_tablet.jpg" alt="Compass image" class="compass"/>
+                                        <img src="assets/media/compass_tablet.jpg" alt="Compass image" class="compass"/>
                                     </div>
                                     <h3 class="inv-nav">
                                         <a href="tools.html#compass">The Invention of the Compass: No More Blind Travel!</a>
@@ -143,7 +136,7 @@
                             <div>
                                 <h4>Omar Shaikh Al Zoor</h4>
                                 <p>
-                                    A second year Computing and Information Technology student at RIT University in Dubai
+                                    A second year Computing and Information Technology student at RIT University in Dubai.
                                 </p>
                             </div>
                         </div>
@@ -152,7 +145,7 @@
                             <div>
                                 <h4>Abdel Rahman Al Qali</h4>
                                 <p>
-                                    First-year Computing and Information Technology student at RIT University-Dubai
+                                    First-year Computing and Information Technology student at RIT University-Dubai.
                                 </p>
                             </div>
                         </div>
@@ -185,8 +178,7 @@
                     </a>
                     
                 </nav>
-                <?php include footer.php; ?>
-
+                <!-- <?php include('footer.php'); ?> -->
             </footer>
         </div>
     </body>

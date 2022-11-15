@@ -8,20 +8,39 @@
 </head>
 <body>
 	<div class="container">
-			<header class="header">
-                <div class="header-nav">
-                    <a href="index.html">
-						<img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/>
-					</a>
-                    <nav class="main-nav">
-                        <a href="index.html">Homepage</a>
-                        <a href="transportation.html">Transportation</a>
-                        <a href="tools.html">Tools</a>
-                        <a href="health.html">Health & Medicine</a>
-                        <a href="references.html">References</a>
-                    </nav>
-                </div>
-            </header>
+		<header class="header">
+			<div class="header-nav">
+					<a href="index.php"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
+					<div id="lines" onclick="toggleMenu()">
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</div>
+			</div>
+					<nav class="main-nav" id="nav-bar" style="display: block !important;">
+						<a href="index.php">Homepage</a>
+						<a href="transportation.html">Transportation</a>
+						<a href="tools.html">Tools</a>
+						<a href="health.html">Health & Medicine</a>
+						<a href="references.html">References</a>
+					</nav>
+		</header>
+		<script>
+				window.onresize = function() {
+					var x = document.getElementById("nav-bar")
+					if(window.innerWidth >= 768) x.style.display = "block";
+				};
+				function toggleMenu() {
+					var x = document.getElementById("nav-bar")
+					if(x.style.display == 'block') {
+						x.style.display = 'none';
+					}
+					else{
+							x.style.display = 'block';
+					}
+				}
+		</script>
+
 		<main >
 			<div class="container-main main">
 				<div class="aside">
@@ -88,8 +107,8 @@
 						<h3 class="aside-h3">Recommended Inventions & Discoveries</h3>
 						<div class="links-a">
 							<p><a href="tools.html#light-bulb">The End of the Candle and Lantern Era: The Invention of the Incadescent Lightbulb</a></p>
-							<p><a href="/transportation.html#automobile">From Wagon to Automobile</a></p>
-							<p><a href="/tools.html#compass">The Invention of the Compass: No More Blind Travel!</a></p>
+							<p><a href="transportation.html#automobile">From Wagon to Automobile</a></p>
+							<p><a href="tools.html#compass">The Invention of the Compass: No More Blind Travel!</a></p>
 						</div>
 					</div>
 					<hr>
