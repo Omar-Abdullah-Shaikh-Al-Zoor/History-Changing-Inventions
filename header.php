@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
         <header class="header">
                 <div class="header-nav">
                         <a href="index.php"><img src="assets/media/SciBlog_logo.png" alt="logo" class="logo"/></a>
