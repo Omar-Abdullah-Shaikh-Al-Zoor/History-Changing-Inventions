@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <?php include('header.php'); ?>
+        <?php include 'header.php'; ?>
         <main>
             <div class="container-main">
                 <h1 class="main-heading">History-Changing Inventions & Discoveries</h1>

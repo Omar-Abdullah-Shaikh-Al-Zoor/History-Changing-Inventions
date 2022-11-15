@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <?php include('header.php'); ?>
-        <main>
+        <main class="refrences-main">
             <h1 class="ref-h2">References</h1>
             <div class="references">
                 <div class="hanging-text">
